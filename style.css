@@ -1,0 +1,75 @@
+h1 {
+    color: red;
+}
+body {
+    background-color: #555555
+}
+/*
+*{
+    margin: 0;
+    padding: 0;
+}
+*/
+.box-1 {
+    background-color: #333;
+    color: #fff;
+    border: 5px red solid;
+    border-width: 3px;
+    border-bottom-width: 10px;
+    border-top-style: dotted
+    border: 5px red solid;
+    padding: 20px;
+    margin:20px;
+}
+body{margin:0%}
+.container {
+    width:80%;
+    margin:auto;
+}
+.box-1 h1 {
+    font-family: Tahoma;
+    font-weight: 800;
+    font-style: italic;
+    text-decoration:underline
+    text-transform: uppercase;
+    letter-spacing: 0.2em;
+    word-spacing: 1em;
+}
+.box-2{
+    border: 3px dotted #ccc;
+    padding: 20px;
+    margin: 20px 0;
+}
+.categories {
+    border: 1px #ccc solid
+    padding: 10px;
+    border-radius: 15px
+}
+.categories h2 {
+    text-align: center
+}
+.categories ul {
+    padding: 0;
+    padding-left:20px;
+}
+.categories li {
+    padding-bottom: 6px;
+    border-bottom: dotted 1px #333;
+    list-style-image: url('https://paulding.instructure.com/courses/250828/files/22466740/preview');
+}
+a {
+    text-decoration: none;
+    color: #000;
+}
+a:hover{
+    color:red;}
+a:active {
+    color:green;
+}
+a:visited{
+    color:yellow;
+}
+.my-form input{
+    padding:8px;
+    width:100%;
+}
